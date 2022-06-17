@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background: hsl(246, 25%, 77%)
+  }
+  .flex-container {
+    display: flex;
+    background: url(../images/bg-intro-desktop.png);
+    color:white ;
+    background-color:hsl(0, 100%, 74%)  ;
+}
+
+.flex-child {
+    flex: 1;
+  
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+main{
+   margin-top: 30%;
+   padding-left: 20px;
+   font-family: 'Poppins';
+   font-size: 16px;
+   font-weight: 400;
+}
+
+
+  .container{
+    background: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+  }
+
+  .heading{
+    background:hsl(248, 32%, 49%);
+    color: white;
+    margin-bottom: 35px;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 15px;
+  }
+  .heading p{
+    text-align: center;
+    font-family: 'Poppins'!important;
+    padding-top: 0;
+  }
+  
+  .wrapper{
+    max-width: 450px;
+    width: 100%;
+    margin: 30px auto 0;
+    padding: 10px;
+  }
+  
+  .wrapper .form_container{
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+  .form_item input[type="text"],
+.btn{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.form_item input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+  .btn input[type="submit"]{
+    background: hsl(154, 59%, 51%);
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    margin: 0;
+
+  }
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+ 
+@media only screen and (max-width: 500px) {
+   .flex-container{
+    display: block;
+   }
+
+   .flex-child magenta{
+    width: 100%;
+   }
+  }
